@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Org Mode Clipboard Copier",
+  "version": "1.0",
+  "description": "Copy current page's title and URL as an Org mode section to clipboard",
+  "permissions": ["activeTab", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  }
+}
